@@ -1,4 +1,4 @@
-import {has} from '@codesphere/utils-common/lib/has';
+import {has} from '@0cfg/utils-common/lib/has';
 
 export class EnvVariableNotSetError extends Error {
     public constructor(name: string) {

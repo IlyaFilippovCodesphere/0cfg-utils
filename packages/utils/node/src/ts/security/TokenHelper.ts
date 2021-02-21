@@ -1,6 +1,6 @@
 import * as jwt from 'jsonwebtoken';
-import {has} from '@codesphere/utils-common/lib/has';
-import {equal} from '@codesphere/utils-common/lib/equal';
+import {has} from '@0cfg/utils-common/lib/has';
+import {equal} from '@0cfg/utils-common/lib/equal';
 import * as http from 'http';
 
 export class NoPrivateKeyError extends Error {
