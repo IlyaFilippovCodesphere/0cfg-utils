@@ -1,0 +1,10 @@
+export const hoursInADay = 24;
+export const daysInAWeek = 7;
+export const secondsInADay = hoursInADay * 3_600;
+export const secondsInAWeek = secondsInADay * daysInAWeek;
+export const milliSecondsInASecond = 1_000;
+export const milliSecondsInAMinute = 60 * milliSecondsInASecond;
+export const millisecondsInTenMinutes = 10 * milliSecondsInAMinute;
+export const milliSecondsInAnHour = 60 * milliSecondsInAMinute;
+export const milliSecondsInADay = hoursInADay * milliSecondsInAnHour;
+export const milliSecondsInAWeek = daysInAWeek * milliSecondsInADay;
