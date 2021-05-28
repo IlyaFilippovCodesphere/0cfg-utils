@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2]
+
 ### Fixed
 
 - Removed sourcemaps from the final build artifact
@@ -15,5 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release of 0cfg-utils!
 
-[unreleased]: https://github.com/0cfg/0cfg-utils/compare/v0.0.1...HEAD
+[unreleased]: https://github.com/0cfg/0cfg-utils/compare/v0.0.2..HEAD
+[0.0.2]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.0.2
 [0.0.1]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.0.1
