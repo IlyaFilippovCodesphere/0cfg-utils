@@ -1,4 +1,4 @@
-import {copy} from '../copy';
+import {copy} from '../ts/copy';
 
 test('copy number', () => {
     expect(copy(1)).toEqual(1);

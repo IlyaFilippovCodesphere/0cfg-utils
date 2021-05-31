@@ -1,4 +1,4 @@
-import {size} from '../size';
+import {size} from '../ts/size';
 
 test('object size is number of defined keys', () => {
     expect(size({1: '1', 'hi0': '2', 'hi1': undefined, 'hi2': null})).toBe(2);

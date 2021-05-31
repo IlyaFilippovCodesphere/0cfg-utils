@@ -1,5 +1,5 @@
-import {debounce} from '../debounce';
-import { wait } from '../wait';
+import {debounce} from '../ts/debounce';
+import { wait } from '../ts/wait';
 
 test('debounce with no arguments', async () => {
     const mockFunction = jest.fn();

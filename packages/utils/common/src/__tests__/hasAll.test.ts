@@ -1,4 +1,4 @@
-import {hasAll} from '../hasAll';
+import {hasAll} from '../ts/hasAll';
 
 test('true if has all', () => {
     expect(hasAll('', true, 1)).toBeTruthy();

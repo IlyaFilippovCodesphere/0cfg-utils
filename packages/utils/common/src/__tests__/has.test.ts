@@ -1,4 +1,4 @@
-import {has} from '../has';
+import {has} from '../ts/has';
 
 test('false for null or undefined', () => {
     expect(has(undefined)).toBeFalsy();

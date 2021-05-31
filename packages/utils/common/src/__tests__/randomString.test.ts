@@ -1,5 +1,5 @@
-import {randomString} from '../randomString';
-import {has} from '../has';
+import {randomString} from '../ts/randomString';
+import {has} from '../ts/has';
 
 test('randomString', () => {
     for (let i = 0; i < 10_000; i++) {
