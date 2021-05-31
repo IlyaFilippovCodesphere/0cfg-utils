@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Adds
+- New helper methods for mostly for string filtering and formatting.
+
 ## [0.0.2]
 
 ### Fixed
