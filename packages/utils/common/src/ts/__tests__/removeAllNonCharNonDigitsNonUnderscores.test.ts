@@ -1,4 +1,4 @@
-import {removeAllNonCharsNonDigitsNonUnderscores} from "../removeAllNonCharsNonDigitsNonUnderscores";
+import {removeAllNonCharsNonDigitsNonUnderscores} from '../removeAllNonCharsNonDigitsNonUnderscores';
 
 test('Do not change String with only chars, underscores and digits.', () => {
     const matchingString = '8s_dShd3';
@@ -8,7 +8,8 @@ test('Do not change String with only chars, underscores and digits.', () => {
 test('Removes other characters from input string.', () => {
     const inputStringWithOtherCharacters = '_on_#ad/012.1';
     const expectedStringRemoveOtherCharacters = '_on_ad0121';
-    expect(removeAllNonCharsNonDigitsNonUnderscores(inputStringWithOtherCharacters)).toBe(expectedStringRemoveOtherCharacters);
+    expect(removeAllNonCharsNonDigitsNonUnderscores(inputStringWithOtherCharacters))
+        .toBe(expectedStringRemoveOtherCharacters);
 });
 
 test('Removes whitespace from input string.', () => {

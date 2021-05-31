@@ -1,4 +1,4 @@
-import {removeAllNonCharsNonDigitsNonDotsNonUnderscores} from "../removeAllNonCharsNonDigitsNonDotsNonUnderscores";
+import {removeAllNonCharsNonDigitsNonDotsNonUnderscores} from '../removeAllNonCharsNonDigitsNonDotsNonUnderscores';
 
 test('Do not change String with only chars, dots, underscores and digits.', () => {
     const matchingString = '_8._sdShd3.';

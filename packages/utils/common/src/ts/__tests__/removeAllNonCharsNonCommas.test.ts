@@ -1,4 +1,4 @@
-import { removeAllNonCharsNonDigitsNonCommas } from "../removeAllNonCharsNonDigitsNonCommas";
+import {removeAllNonCharsNonDigitsNonCommas} from '../removeAllNonCharsNonDigitsNonCommas';
 
 test('Do not change String with only chars, digits and commas.', () => {
     const matchingString = ',8sdS,,hd3,';
@@ -8,7 +8,8 @@ test('Do not change String with only chars, digits and commas.', () => {
 test('Removes other characters from input string.', () => {
     const inputStringWithOtherCharacters = 'on,#a,d/012.1';
     const expectedStringRemoveOtherCharacters = 'on,a,d0121';
-    expect(removeAllNonCharsNonDigitsNonCommas(inputStringWithOtherCharacters)).toBe(expectedStringRemoveOtherCharacters);
+    expect(removeAllNonCharsNonDigitsNonCommas(inputStringWithOtherCharacters))
+        .toBe(expectedStringRemoveOtherCharacters);
 });
 
 test('Removes whitespace from input string.', () => {
