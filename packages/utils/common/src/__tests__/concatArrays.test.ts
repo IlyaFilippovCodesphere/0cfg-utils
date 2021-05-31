@@ -1,4 +1,4 @@
-import {concatArrays} from '../concatArrays';
+import {concatArrays} from '../ts/concatArrays';
 
 test('concatArrays', () => {
     expect(concatArrays([1])).toEqual([1]); // most simple

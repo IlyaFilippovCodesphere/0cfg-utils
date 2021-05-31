@@ -1,4 +1,4 @@
-import {deepCopy} from '../deepCopy';
+import {deepCopy} from '../ts/deepCopy';
 
 test('deepCopy', () => {
     const a = {

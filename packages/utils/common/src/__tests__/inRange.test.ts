@@ -1,4 +1,4 @@
-import {inRange} from '../inRange';
+import {inRange} from '../ts/inRange';
 
 test('true if in incluisive range', () => {
     expect(inRange(4, 4, 5)).toBe(true);

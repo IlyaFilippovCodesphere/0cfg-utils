@@ -1,4 +1,4 @@
-import {BufferQueue} from '../BufferQueue';
+import {BufferQueue} from '../ts/BufferQueue';
 
 test('pushPeekPop', () => {
     const buffer = new BufferQueue<number>(3);

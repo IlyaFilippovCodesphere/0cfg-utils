@@ -1,4 +1,4 @@
-import {forEachProperty} from '../forEachProperty';
+import {forEachProperty} from '../ts/forEachProperty';
 
 test('loops through each in object', () => {
     const obj = {1: jest.fn(), 'zwei': jest.fn()};

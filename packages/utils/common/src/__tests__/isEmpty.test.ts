@@ -1,4 +1,4 @@
-import {isEmpty} from '../isEmpty';
+import {isEmpty} from '../ts/isEmpty';
 
 test('array', () => {
     expect(isEmpty([])).toBeTruthy();

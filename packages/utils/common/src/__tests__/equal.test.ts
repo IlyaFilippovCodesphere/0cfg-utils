@@ -1,4 +1,4 @@
-import {equal} from '../equal';
+import {equal} from '../ts/equal';
 
 test('equal', () => {
     expect(equal(1, 1)).toBeTruthy();
