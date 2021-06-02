@@ -12,7 +12,7 @@ export const formatBytes = (bytes: number, decimals: number = 0): string => {
     }
 
     if (bytes === 0) {
-        return '0';
+        return '0 Bytes';
     }
 
     const baseSize = 1024;
