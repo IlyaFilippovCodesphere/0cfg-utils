@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Added
+- Support for node versions higher than 14.4.0
+
+## [0.1.0]
+
 ### Adds
 
 - New helper methods for mostly for string filtering and formatting.
@@ -25,6 +32,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release of 0cfg-utils!
 
-[unreleased]: https://github.com/0cfg/0cfg-utils/compare/v0.0.2..HEAD
+[unreleased]: https://github.com/0cfg/0cfg-utils/compare/v0.1.1..HEAD
+[0.1.1]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.1.1
+[0.1.0]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.1.0
 [0.0.2]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.0.2
 [0.0.1]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.0.1
