@@ -29,7 +29,6 @@
   "dependencies": {
     "@0cfg/utils-common": "^0.1.2",
     "aes-js": "3.1.2",
-    "crypto": "1.0.1",
     "entropy-string": "4.2.0",
     "jsonwebtoken": "8.5.1",
     "object-hash": "2.2.0",
