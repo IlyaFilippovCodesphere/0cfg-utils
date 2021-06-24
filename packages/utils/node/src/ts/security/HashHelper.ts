@@ -32,7 +32,7 @@ export class HashHelper {
             .digest(DIGEST);
     }
 
-    public hashObject(obj: JsonValue) {
-        this.hash(objectHash(obj, {algorithm: 'passthrough'}));
+    public hashObject(obj: JsonValue): string {
+        return this.hash(objectHash(obj, {algorithm: 'passthrough'}));
     }
 }
