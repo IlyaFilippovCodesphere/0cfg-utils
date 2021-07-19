@@ -10,8 +10,8 @@ describe('Format bytes', () => {
     });
 
     describe('Format with correct unit', () => {
-        test('No suffix and decimal places if value is 0', () => {
-            expect(formatBytes(0, 2)).toBe('0');
+        test('No suffix and decimal places if value is 0 Bytes', () => {
+            expect(formatBytes(0, 2)).toBe('0 Bytes');
         });
 
         test('Kilobytes', () => {
