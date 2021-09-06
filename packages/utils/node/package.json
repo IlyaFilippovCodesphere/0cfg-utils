@@ -1,6 +1,6 @@
 {
   "name": "@0cfg/utils-node",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Elias Groll <elias@codesphere.cloud>",
   "license": "MIT",
   "private": false,
@@ -27,7 +27,7 @@
     "@types/pbkdf2": "^3.1.0"
   },
   "dependencies": {
-    "@0cfg/utils-common": "^0.1.2",
+    "@0cfg/utils-common": "^0.1.6",
     "aes-js": "3.1.2",
     "entropy-string": "4.2.0",
     "jsonwebtoken": "8.5.1",
