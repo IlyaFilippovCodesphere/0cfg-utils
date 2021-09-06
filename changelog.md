@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [unreleased]
+
 ## [0.1.6]
 
 ### Improved
@@ -37,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release of 0cfg-utils!
 
-[unreleased]: https://github.com/0cfg/0cfg-utils/compare/v0.1.1..HEAD
+[unreleased]: https://github.com/0cfg/0cfg-utils/compare/v0.1.6..HEAD
+[0.1-6]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.1.6
 [0.1.1]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.1.1
 [0.1.0]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.1.0
 [0.0.2]: https://github.com/0cfg/0cfg-utils/releases/tag/v0.0.2
