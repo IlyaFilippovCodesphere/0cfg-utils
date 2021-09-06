@@ -1,6 +1,8 @@
 import {injectable} from 'inversify';
 import * as crypto from 'crypto';
 import {isA} from 'ts-type-checked';
+import {JsonValue} from '@0cfg/utils-common/lib/JsonValue';
+import objectHash from 'object-hash';
 
 export interface HashConfig {
     readonly salt: string,
@@ -28,5 +30,9 @@ export class HashHelper {
             .createHash(this.config.algorithm)
             .update(secret + this.config.salt)
             .digest(DIGEST);
+    }
+
+    public hashObject(obj: JsonValue): string {
+        return this.hash(objectHash(obj, {algorithm: 'passthrough'}));
     }
 }
