@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Improved
 
 - formatBytes: show unit when byte value is 0
+- add object hash method to HashHelper
 
 ## [0.1.1]
 
