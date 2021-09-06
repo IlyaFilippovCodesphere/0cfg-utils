@@ -11,13 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- JsonValue typing for object without properties
-
-## [0.1.2]
-
-### Improved
-
 - formatBytes: show unit when byte value is 0
+- JsonValue typing for object without properties
 
 ## [0.1.1]
 
