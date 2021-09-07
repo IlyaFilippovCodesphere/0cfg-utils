@@ -1,6 +1,6 @@
 {
   "name": "@0cfg/utils-node",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "author": "Elias Groll <elias@codesphere.cloud>",
   "license": "MIT",
   "private": false,
@@ -23,15 +23,16 @@
     "@types/aes-js": "^3.1.1",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/node": "^14.14.25",
+    "@types/object-hash": "2.1.0",
     "@types/pbkdf2": "^3.1.0"
   },
   "dependencies": {
-    "@0cfg/utils-common": "^0.1.1",
-    "aes-js": "^3.1.2",
-    "crypto": "^1.0.1",
-    "entropy-string": "^4.2.0",
-    "jsonwebtoken": "^8.5.1",
-    "pbkdf2": "^3.1.1"
+    "@0cfg/utils-common": "^0.1.6",
+    "aes-js": "3.1.2",
+    "entropy-string": "4.2.0",
+    "jsonwebtoken": "8.5.1",
+    "object-hash": "2.2.0",
+    "pbkdf2": "3.1.1"
   },
   "gitHead": "6d74b3220976c1eecc66da7af0cee55ca06e2939",
   "publishConfig": {
